@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="https://yesyesiam.github.io/cherkash/">  <!--  --> <!-- / -->
+  <base href="https://yesyesiam.github.io/cherkash/">  <!-- https://yesyesiam.github.io/cherkash/ --> <!-- / -->
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -37,7 +37,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '973852586';
+    var serviceWorkerVersion = '3644677881';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -50,7 +50,7 @@
       document.body.append(scriptTag);
     }
 
-    if ('serviceWorker' in navigator) {
+    /*if ('serviceWorker' in navigator) {
       // Service workers are supported. Use them.
       window.addEventListener('load', function () {
         // Wait for registration to finish before dropping the <script> tag.
@@ -98,7 +98,8 @@
     } else {
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
-    }
+    }*/
+	loadMainDartJs();
   </script>
 </body>
 </html>
